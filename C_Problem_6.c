@@ -1,12 +1,12 @@
 #include <stdio.h>
-void disp_odd(int);
+void disp_2digit_odd_below20(int);
 int main()
 {
     int x;
     x=19;
-    disp_odd(x);
+    disp_2digit_odd_below20(x);
 }
-void disp_odd(int x)
+void disp_2digit_odd_below20(int x)
 {
     int i;
     for(i=11;i<=x;i=i+2)
