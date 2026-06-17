@@ -1,12 +1,12 @@
 #include <stdio.h>
-void disp_descend(int);
+void disp_assend(int);
 int main()
 {
     int x;
     x=5;
-    disp_descend(x);
+    disp_assend(x);
 }
-void disp_descend(int x)
+void disp_assend(int x)
 {
     int i;
     for(i=1;i<=x;i++)
