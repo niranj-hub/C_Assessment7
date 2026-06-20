@@ -1,14 +1,14 @@
 #include <stdio.h>
-void check_prime(int x);
+void check_prime_and_sum14(int x);
 int main()
 {
     int x;
     printf("Enter a number:");
     scanf("%d", &x);
-    check_prime(x);
+    check_prime_and_sum14(x);
     return 0;
 }
-void check_prime(int x)
+void  check_prime_and_sum14(int x)
 {
     int i,flag,sum,temp;
     flag=0;
