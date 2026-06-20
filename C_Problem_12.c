@@ -11,7 +11,7 @@ void count_total_digits(int x)
 {
     int sum,rem;
     sum=0;
-    while(x!=0)
+    while(x>0)
     {
         rem=x%10;
         sum=sum+rem;
