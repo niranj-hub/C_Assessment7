@@ -1,5 +1,5 @@
 #include <stdio.h>
-void disp_total_odd_digits(int x);
+void disp_total_odd_digits(int);
 int main()
 {
     int x;
